@@ -28,4 +28,6 @@ I have tried all posible combinations of these setups to find the best accuracy 
 
 ## Deployment
 
-For deploy the model I used the Python module Flask.
+I used Flask for the web application and Keroku for deploying it.
+Available on:
+https://fake-news-detector-by-acervero.herokuapp.com/
