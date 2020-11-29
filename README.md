@@ -28,7 +28,7 @@ I have tried all posible combinations of these setups to find the best accuracy 
 
 ## Results
                         LogReg  SVM   RF    Boosting
-    CV Score(Accuracy): 0.82    0.77  0.79  080
+    CV Score(Accuracy): 0.82    0.77  0.79  0.80
     
     Test Score (Using LogReg): 0.78 
 
