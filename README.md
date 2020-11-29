@@ -26,8 +26,15 @@ and Boosting. Also, I have evaluated three different feature representation:
 \
 I have tried all posible combinations of these setups to find the best accuracy on the training test using GridSearchCV from Scikit-Learn python module.
 
+## Results
+                        LogReg  SVM   RF    Boosting
+    CV Score(Accuracy): 0.82    0.77  0.79  080
+    
+    Test Score (Using LogReg): 0.78 
+
 ## Deployment
 
-I used Flask for the web application and Keroku for deploying it.
+I used Flask for the web application and Heroku for deploying it.
+
 Available on:
 https://fake-news-detector-by-acervero.herokuapp.com/
