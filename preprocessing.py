@@ -2,7 +2,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 import spacy
 import numpy as np
 from spacy.lang.en.stop_words import STOP_WORDS
-nlp = spacy.load('es_core_news_sm')
+nlp = spacy.load('./models/es_core_news_sm-2.3.1')
 
 class TextPreprocessing(BaseEstimator, TransformerMixin):
     def __init__(self, remove_punctuation=True, remove_stopwords=True,
